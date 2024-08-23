@@ -1,4 +1,10 @@
 <?php
+
+/** WP 2FA plugin data encryption key. For more information please visit melapress.com */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'C:\xampp\htdocs\GitHub\My_Press\wp-content\plugins\wp-super-cache/' );
+define( 'WP2FA_ENCRYPT_KEY', 'kaDCHj712G5M5QQUTUw3Iw==' );
+
 /**
  * The base configuration for WordPress
  *
